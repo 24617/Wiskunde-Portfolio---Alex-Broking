@@ -1,0 +1,29 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  cursor: crosshair;
+}
+
+#canvas2 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+
+
+
+}
+
+#canvas {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+  background: url('https://i.imacdn.com/vg/2018/08/27/0dc6b82201628815_ff59293852f66638_2284415353802475166165.jpg');
+  background-size: 1300px;
+}

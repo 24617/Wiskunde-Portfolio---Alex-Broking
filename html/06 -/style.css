@@ -1,0 +1,30 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  cursor: crosshair;
+}
+
+#canvas2 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+
+
+
+}
+
+#canvas {
+  background-color: Gainsboro;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+  background: url('SextupletPreview.gif');
+  background-size: 1000px;
+}
